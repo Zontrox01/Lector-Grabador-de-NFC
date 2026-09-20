@@ -52,7 +52,8 @@ Lector_grabador_NFC/
 ├── bloquear_ntag.py        # Bloqueo permanente de una tarjeta NTAG
 ├── datos/
 │   ├── icono.ico / icono.png
-│   ├── indice.xlsx         # Índice UID → archivo Excel de origen (se genera automáticamente)
+│   ├── indice.xlsx         # Índice UID → archivo Excel para mantener un índice 
+│   ├── datos.xlsx          # datos  → archivo Excel de origen de los datos 
 │   └── ultimo_archivo.txt  # Recuerda el último Excel de datos utilizado
 └── requirements.txt
 ```
