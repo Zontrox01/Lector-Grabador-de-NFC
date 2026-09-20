@@ -107,6 +107,7 @@ El proyecto se compila con [PyInstaller](https://pyinstaller.org/):
 
 ```bash
 python -m PyInstaller --onefile --windowed --icon=datos\icono.ico --add-data "datos;datos" ^
+  --name="Lector Grabador NFC" ^
   --hidden-import=bloquear_ntag ^
   --hidden-import=leer_excel ^
   --hidden-import=nfc_reader_apdu ^
