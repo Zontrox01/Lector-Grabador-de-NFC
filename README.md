@@ -1,6 +1,7 @@
 # Lector Grabador NFC
 
 Aplicación de escritorio para Windows que permite **leer y grabar tarjetas NFC (NTAG213/215/216)** a partir de los datos de un archivo Excel, mediante un lector/escritor NFC conectado por USB.
+
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
 ![License](https://img.shields.io/badge/license-MIT-yellow)
